@@ -1,0 +1,53 @@
+body{
+    
+    /* Margin = margen externa
+    Padding = margen interna*/
+    padding: 0;
+    margin: 0;
+    background: url("../img/24052021_ROB_01.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position:center ;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+h1{
+    color: #bf2bd3;
+    font-size: 50px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: #00ffff;
+    font-size: 34px;
+    
+
+
+}
+
+p{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 12px;
+    background: #f57119 ;
+    border: 2px;
+    cursor: pointer;
+    transition: .5s;
+    font-size:10 ;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+/*Hover es un estado de los elementos donde los elementos se activen*/
+button:hover{
+    background-color: transparent;
+    color: #7fffd4;
+    padding: 15px 50px;
+
+}
